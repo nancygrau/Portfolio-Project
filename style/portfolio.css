@@ -39,6 +39,7 @@ p {
   font-weight: bold;
   margin: 0;
   line-height: 2;
+  text-align: center;
 }
 .hero h2 {
   font-family: var(--default-font-family);
