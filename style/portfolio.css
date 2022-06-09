@@ -17,35 +17,35 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
-  font-family: var(--heading-font-family);
 }
 p {
-  color: black;
+  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 180px 20px;
+  padding: 160px 20px;
 }
 
 .hero p {
   font-size: 36px;
   font-family: var(--default-font-family);
   font-weight: bold;
+  color: #272142;
   margin: 0;
   line-height: 2;
   text-align: center;
 }
 .hero h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 24px;
-  color: #272142;
   line-height: 1.5;
 }
 .content-container {
@@ -149,7 +149,7 @@ nav a:hover {
     padding: 80px 20px;
   }
   .content-container {
-    padding: 80px 20px;
+    padding: 20px 20px;
   }
   .project-description {
     padding: 0;
@@ -163,11 +163,11 @@ nav a:hover {
     font-size: 44px;
   }
   nav li {
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 5px;
     margin-right: 5px;
   }
   .first-name {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
